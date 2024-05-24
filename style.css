@@ -1,0 +1,117 @@
+h2{
+    color: rgb(12, 78, 133);
+    padding-top: 20px;
+    padding-left: 20px;
+    margin-bottom: 15px;
+    margin-bottom: 10px;
+
+
+}
+
+
+.introduction{
+     line-height: 20px;
+     margin-top: 0px;
+    
+     margin-left: 10px;
+}
+
+
+.button-me{
+    background-color: rgb(12, 78, 133);
+    color: aliceblue;
+    border-style: solid;
+    border-radius: 5px;
+    cursor: pointer;
+    border-style:solid;
+    border-width: 1px;
+    margin: 8px;
+    font-size: 5px;
+    transition: opacity 0.2s;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 10px;
+    padding-right: 14px;
+    margin: 10px;
+    font-size: 10px;
+    align-content: center; 
+    
+}
+.button-me:hover {
+    background-color: rgb(30, 187, 69);
+    opacity: 0.5;
+}
+
+.button-skill{
+    background-color: rgb(12, 78, 133);
+    color: aliceblue;
+    border-style: solid;
+    border-radius: 5px;
+    cursor: pointer;
+    border-style:solid;
+    border-width: 1px;
+    margin: 8px;
+    font-size: 5px;
+    transition: opacity 0.2s;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    padding-left: 14px;
+    padding-right: 14px;
+    margin: 10px;
+    font-size: 10px;
+    align-content: center; 
+}
+.button-skill:hover {
+    background-color: rgb(30, 187, 69);
+    opacity: 0.5;
+}
+.button-project{
+    background-color: rgb(12, 78, 133);
+    color: aliceblue;
+    border-style: solid;
+    border-radius: 5px;
+    cursor: pointer;
+    border-style:solid;
+    border-width: 1px;
+    margin: 8px;
+    font-size: 5px;
+    transition: opacity 0.2s;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 14px;
+    padding-right: 14px;
+    margin: 10px;
+    font-size: 10px;
+    align-content: center; 
+}
+.button-project:hover {
+    background-color: rgb(30, 187, 69);
+    opacity: 0.5;
+}
+.button-contact{
+    background-color: rgb(12, 78, 133);
+    color: aliceblue;
+    border-style: solid;
+    border-radius: 5px;
+    cursor: pointer;
+    border-style:solid;
+    border-width: 1px;
+    margin: 8px;
+    font-size: 5px;
+    transition: opacity 0.2s;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 14px;
+    padding-right: 14px;
+    margin: 10px;
+    font-size: 10px;
+    align-content: center; 
+}
+.button-contact:hover {
+    background-color: rgb(30, 187, 69);
+    opacity: 0.5;
+}

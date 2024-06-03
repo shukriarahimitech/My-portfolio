@@ -1,117 +1,238 @@
-h2{
-    color: rgb(12, 78, 133);
-    padding-top: 20px;
-    padding-left: 20px;
-    margin-bottom: 15px;
-    margin-bottom: 10px;
 
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    font-weight: 400;
+
+}
+@media (max-width: 899px) {
+       
+        #navbar {
+            padding-left: 5%;
+            max-width: 1000px;
+            position: relative;
+            display: inline;
+            justify-content: right;
+            align-items: flex-end;
+            top: 15px;
+            margin-top: 5%;
+            margin-bottom: 10px;
+            padding: 5px;
+          
+        }
+    }
+
+
+#heading{
+    color: rgb(6, 7, 7);
+    padding-top: 15px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    padding-right: 20px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    text-align:left;
+    display: inline;
+    
+  
+    
 
 }
 
+ .about{
+    width: 84px;
+    color: aliceblue;
+    border-style: solid;
+    cursor: pointer;
+    border-width: 1px;
+    font-size: 10px;
+    transition: opacity 0.2s;
+    font-family: sans-serif;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    padding-right: 4px;
+    margin: 10px;
+    display: inline;
+   
+
+}
+.skill{
+    width: 84px;
+    color: aliceblue;
+    border-style: solid;
+    cursor: pointer;
+    border-width: 1px;
+    font-size: 10px;
+    transition: opacity 0.2s;
+    font-family: sans-serif;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 4px;
+    padding-right: 8px;
+    margin: 10px;
+    display: inline;
+}
+
+.project{
+    width: 84px;
+    color: aliceblue;
+    border-style: solid;
+    cursor: pointer;
+    border-width: 1px;
+    font-size: 10px;
+    transition: opacity 0.2s;
+    font-family: sans-serif;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    padding-right: 4px;
+    margin: 10px;
+    display: inline;
+}
+
+.contact{
+    width: 84px;
+    color: aliceblue;
+    border-style: solid;
+    cursor: pointer;
+    border-width: 1px;
+    font-size: 10px;
+    transition: opacity 0.2s;
+    font-family: sans-serif;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    padding-right: 4px;
+    margin: 10px;
+    display: inline;
+}
+
+#icon{
+    max-width: 30px;
+    cursor: pointer;
+    align-content: right;
+    display: inline-block;
+    text-align: center;
+}
 
 .introduction{
      line-height: 20px;
      margin-top: 0px;
-    
      margin-left: 10px;
+     text-align: center;
 }
 
-
-.button-me{
-    background-color: rgb(12, 78, 133);
-    color: aliceblue;
-    border-style: solid;
-    border-radius: 5px;
-    cursor: pointer;
-    border-style:solid;
-    border-width: 1px;
-    margin: 8px;
-    font-size: 5px;
-    transition: opacity 0.2s;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    padding-top: 12px;
-    padding-bottom: 12px;
-    padding-left: 10px;
-    padding-right: 14px;
-    margin: 10px;
-    font-size: 10px;
-    align-content: center; 
-    
-}
-.button-me:hover {
-    background-color: rgb(30, 187, 69);
+  .about:hover {
+    background-color: rgb(59, 127, 182);
     opacity: 0.5;
 }
 
-.button-skill{
-    background-color: rgb(12, 78, 133);
-    color: aliceblue;
-    border-style: solid;
-    border-radius: 5px;
-    cursor: pointer;
-    border-style:solid;
-    border-width: 1px;
-    margin: 8px;
-    font-size: 5px;
-    transition: opacity 0.2s;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    padding-top: 11px;
-    padding-bottom: 11px;
-    padding-left: 14px;
-    padding-right: 14px;
-    margin: 10px;
-    font-size: 10px;
-    align-content: center; 
-}
-.button-skill:hover {
-    background-color: rgb(30, 187, 69);
+.skill:hover {
+    background-color: rgb(59, 127, 182);
     opacity: 0.5;
 }
-.button-project{
-    background-color: rgb(12, 78, 133);
-    color: aliceblue;
-    border-style: solid;
-    border-radius: 5px;
-    cursor: pointer;
-    border-style:solid;
-    border-width: 1px;
-    margin: 8px;
-    font-size: 5px;
-    transition: opacity 0.2s;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 14px;
-    padding-right: 14px;
-    margin: 10px;
-    font-size: 10px;
-    align-content: center; 
-}
-.button-project:hover {
-    background-color: rgb(30, 187, 69);
+
+.project:hover {
+    background-color: rgb(59, 127, 182);
     opacity: 0.5;
 }
-.button-contact{
-    background-color: rgb(12, 78, 133);
-    color: aliceblue;
-    border-style: solid;
-    border-radius: 5px;
-    cursor: pointer;
-    border-style:solid;
-    border-width: 1px;
-    margin: 8px;
-    font-size: 5px;
-    transition: opacity 0.2s;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    padding-top: 9px;
-    padding-bottom: 9px;
-    padding-left: 14px;
-    padding-right: 14px;
-    margin: 10px;
-    font-size: 10px;
-    align-content: center; 
-}
-.button-contact:hover {
-    background-color: rgb(30, 187, 69);
+
+.contact:hover {
+    background-color: rgb(59, 127, 182);
     opacity: 0.5;
+}
+h3{
+    margin-left: 10px;
+    font-family:  sans-serif;
+    margin-bottom: 10px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+h4{
+    margin-left: 10px;
+    display: inline;
+}
+
+
+
+.gmail, .linkedin, .github{
+    margin-left: 10px;
+    display: inline;
+    text-align: center;
+    align-items: left;
+}
+
+.css{
+    margin: 3px;
+}
+
+ .html{
+    margin: 3px;
+}
+
+ .js{
+    margin: 3px;
+ }
+
+ .node{
+    margin: 3px;
+ }
+
+ .git{
+    margin: 3px;
+ }
+
+ .github{
+    margin: 3px;
+ }
+
+ .database{
+    margin: 3px;
+ }
+
+ .react{
+    margin: 3px;
+ }
+
+ 
+
+.footer {
+    padding: 40px 0;
+    background-color: #fff;
+}
+
+.footer .social{
+    text-align: center;
+    padding-bottom: 40px;
+    color: #4d4b4d;
+
+
+}
+
+.footer .social a{
+   font-size: 24px;
+   color: inherit;
+   border: 1px solid #ccc;
+   width: 40px;
+   height: 40px;
+   line-height: 38px;
+   display: inline-block;
+   text-align: center;
+   border-radius: 50%;
+   margin: 0 8px;
+   opacity: 0.75;
+
+
+}
+
+.footer .social a: hover{
+  opacity: 0.9;
 }

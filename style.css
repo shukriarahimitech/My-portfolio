@@ -1,47 +1,43 @@
 
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+#navbar {
+    padding-left: 5%;
+    max-width: 1000px;
+    position: relative;
+    display: inline;
+     top: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 10px;
+    text-align: right;
+    flex: 1;
+  
+}
+#navbar, #my {
+text-align: left;
+display: inline;
 }
 
-body{
-    font-family: sans-serif;
-    font-weight: 400;
-
+#icons {
+    width:30px;
+    cursor: pointer;
+    flex: 1;
+    text-align: right;
+    display: inline;
 }
-@media (max-width: 899px) {
-       
-        #navbar {
-            padding-left: 5%;
-            max-width: 1000px;
-            position: relative;
-            display: inline;
-            justify-content: right;
-            align-items: flex-end;
-            top: 15px;
-            margin-top: 5%;
-            margin-bottom: 10px;
-            padding: 5px;
-          
-        }
-    }
-
 
 #heading{
-    color: rgb(6, 7, 7);
-    padding-top: 15px;
-    padding-left: 5px;
-    padding-bottom: 5px;
-    padding-right: 20px;
-    margin-top: 15px;
-    margin-bottom: 20px;
-    text-align:left;
+    color: rgb(57, 65, 65);
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-bottom: 15px;
+    margin-top: 0px;
+    margin-bottom: 10pxpx;
+    text-align: justify;
     display: inline;
-    
-  
-    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
 
 }
 
@@ -78,6 +74,7 @@ body{
     padding-right: 8px;
     margin: 10px;
     display: inline;
+    cursor: pointer;
 }
 
 .project{
@@ -114,19 +111,46 @@ body{
     display: inline;
 }
 
-#icon{
-    max-width: 30px;
-    cursor: pointer;
-    align-content: right;
-    display: inline-block;
-    text-align: center;
-}
+
 
 .introduction{
-     line-height: 20px;
-     margin-top: 0px;
-     margin-left: 10px;
-     text-align: center;
+     padding: 20px 2opx;
+    margin: 20px 20px;
+
+     
+}
+  
+h3 {
+    text-decoration:none;
+    justify-content: left;
+    font-weight: 100;
+    align-items: start;
+    display: inline;
+    margin: 10px 10px;
+    padding: 10px 10px;
+    margin-bottom: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+  .First-project{
+    padding: 10px 10px;
+    margin: 10px 10px;
+
+  }
+
+  .second-project {
+    padding: 10px 10px;
+    margin: 10px 10px;
+
+  }
+  
+.links {
+    padding: 10px 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+ 
+
 }
 
   .about:hover {
@@ -162,56 +186,67 @@ h4{
 }
 
 
+#skill{
+   
 
-.gmail, .linkedin, .github{
-    margin-left: 10px;
-    display: inline;
-    text-align: center;
-    align-items: left;
+   font-size: 24px;
+   color: inherit;
+   border:0.0 solid #ccc;
+   width: 40px;
+   height: 40px;
+   line-height: 38px;
+   display: inline;
+   text-align: center;
+   margin: 20 20px;
+   opacity: 0.75;
+   padding: 10px 10px;
+   margin: 10px 10px;
+
+
 }
 
 .css{
-    margin: 3px;
+    margin: 10px;
 }
 
  .html{
-    margin: 3px;
+    margin: 10px;
 }
 
  .js{
-    margin: 3px;
+    margin: 10px;
  }
 
  .node{
-    margin: 3px;
+    margin: 10px;
  }
 
  .git{
-    margin: 3px;
+    margin: 10px;
  }
 
  .github{
-    margin: 3px;
+    margin: 10px;
  }
 
  .database{
-    margin: 3px;
+    margin: 10px;
  }
 
  .react{
-    margin: 3px;
+    margin: 10px;
  }
 
- 
 
 .footer {
     padding: 40px 0;
     background-color: #fff;
+    margin-bottom: 0%;
 }
 
 .footer .social{
     text-align: center;
-    padding-bottom: 40px;
+    padding-bottom: 15px;
     color: #4d4b4d;
 
 
@@ -233,6 +268,5 @@ h4{
 
 }
 
-.footer .social a: hover{
-  opacity: 0.9;
-}
+
+
